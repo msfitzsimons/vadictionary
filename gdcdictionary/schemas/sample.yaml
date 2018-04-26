@@ -403,9 +403,6 @@ properties:
       - Whole Bone Marrow
       - Unknown
       - Not Reported
-      - Not Allowed To Collect
-    deprecated_enum:
-      - Not Allowed To Collect
 
   current_weight:
     term:
@@ -430,9 +427,6 @@ properties:
       - "No"
       - Unknown
       - Not Reported
-      - Not Allowed To Collect
-    deprecated_enum:
-      - Not Allowed To Collect
 
   distance_normal_to_tumor:
     term:
@@ -564,9 +558,6 @@ properties:
       - Frozen
       - Unknown
       - Not Reported
-      - Not Allowed To Collect
-    deprecated_enum:
-      - Not Allowed To Collect
 
   passage_count:
     term:
@@ -679,9 +670,6 @@ properties:
       - Peritumoral
       - Unknown
       - Not Reported
-      - Not Allowed To Collect
-    deprecated_enum:
-      - Not Allowed To Collect
 
   tumor_code:
     term:
@@ -755,9 +743,6 @@ properties:
       - NOS
       - Unknown
       - Not Reported
-      - Not Allowed To Collect
-    deprecated_enum:
-      - Not Allowed To Collect
 
   cases:
     $ref: "_definitions.yaml#/to_one"
